@@ -1,0 +1,35 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/my/myinfo",
+        "pages/my/about/aboutBlog",
+        "pages/index/editor/editor",
+        "pages/my/myCollect/collect"
+    ],
+    "tabBar": {
+        "color": "#7A7E83",
+        "selectedColor": "#00B5AD",
+        "borderStyle": "black",
+        "backgroundColor": "#ffffff",
+        "list": [{
+                "pagePath": "pages/index/index",
+                "iconPath": "image/homePage.png",
+                "selectedIconPath": "image/homePage_a.png",
+                "text": "主页"
+            },
+            {
+                "pagePath": "pages/my/myinfo",
+                "iconPath": "image/my.png",
+                "selectedIconPath": "image/my_a.png",
+                "text": "我的"
+            }
+        ]
+    },
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#00B5AD",
+        "navigationBarTitleText": "WeChat",
+        "navigationBarTextStyle": "black"
+    },
+    "sitemapLocation": "sitemap.json"
+}

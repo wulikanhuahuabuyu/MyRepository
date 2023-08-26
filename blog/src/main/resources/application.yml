@@ -1,0 +1,12 @@
+#更改模式
+#  thymeleaf.version>3.0.11.RELEASE</thymeleaf.version>
+#  <thymeleaf-layout-dialect.version>2.1.1</thymeleaf-layout-dialect.version>
+spring:
+  thymeleaf:
+    mode: HTML
+  profiles:
+    active: dev
+  messages:
+    basename: msg/messages
+
+comment.avatar: /images/avatar.png

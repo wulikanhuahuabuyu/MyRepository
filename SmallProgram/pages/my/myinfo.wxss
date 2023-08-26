@@ -1,0 +1,44 @@
+.userinfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.userinfo_btn {
+    font-size: 26rpx;
+    background-color: #00B5AD;
+    color: #fff;
+}
+
+.userinfo-avatar {
+    width: 128rpx;
+    height: 128rpx;
+    margin: 20rpx;
+    border-radius: 50%;
+}
+
+.userinfo-nickname {
+    color: #aaa;
+}
+
+.usermotto {
+    margin-top: 200px;
+}
+
+.fildgroup {
+    padding: 15px 7px 7px 7px;
+    width: calc(100% - 50rpx);
+    font-size: 28rpx;
+    color: rgba(0, 0, 0, .8);
+}
+
+.fild {
+    border-bottom: 1rpx solid #e8e8e8;
+    position: relative;
+    padding: 20rpx 15rpx;
+}
+
+.hover_color {
+    background-color: rgba(0, 0, 0, .1);
+    opacity: 0.7;
+}
