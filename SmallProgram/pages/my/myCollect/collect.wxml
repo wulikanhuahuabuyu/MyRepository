@@ -1,8 +1,0 @@
-<view class="container">
-    <!-- 博客列表 -->
-    <view class="blogList" wx:for="{{blogList_c}}" wx:key="index">
-        <view class="blog" hover-class="hover_color" bind:tap="toBlogDetail" data-index="{{index}}">
-            {{item.title}}
-        </view>
-    </view>
-</view>
